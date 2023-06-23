@@ -1,5 +1,5 @@
 h1 {
-    background: red;
+    background: rgb(0, 229, 255);
 }
 
 .paragraph-1 {
@@ -18,4 +18,10 @@ h1 {
 .paragraph-3 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph-4 {
+   font-style: oblique;
+   text-align: center;
+   font-size: 24px;
+   text-shadow: 2px -4px 6px green; 
 }
