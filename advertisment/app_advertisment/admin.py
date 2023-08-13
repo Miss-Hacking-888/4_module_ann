@@ -3,7 +3,7 @@ from .models import Advertisement
 
 # Register your models here.
 class AdvertismentAdmin(admin.ModelAdmin):
-    list_display = ['id','title','description','price','created_date','auction']
+    list_display = ['id','title','description','price','created_date','updated_date','auction','image']
     list_filter = ['auction', 'created_at','price']
     actions = ['make_auction_as_false','make_auction_as_true']
 
